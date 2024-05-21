@@ -52,6 +52,7 @@
 		438207E62BFBD242003CFB6C /* CarViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModelTests.swift; sourceTree = "<group>"; };
 		438207E82BFBD65E003CFB6C /* String+Trimmed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Trimmed.swift"; sourceTree = "<group>"; };
 		438207EB2BFBDDFF003CFB6C /* LightColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightColor.swift; sourceTree = "<group>"; };
+		43D413572BFCA8F400BFDCB8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		438207982BFB4BED003CFB6C = {
 			isa = PBXGroup;
 			children = (
+				43D413572BFCA8F400BFDCB8 /* README.md */,
 				438207A32BFB4BED003CFB6C /* TrafficLight */,
 				438207B42BFB4BEE003CFB6C /* TrafficLightTests */,
 				438207A22BFB4BED003CFB6C /* Products */,
