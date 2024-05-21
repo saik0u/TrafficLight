@@ -23,18 +23,21 @@ struct TrafficLightView<ViewModel: TrafficLightViewModelProtocol>: View {
                 .opacity(viewModel.currentColor == .red ? 1 : 0.3)
                 .frame(width: 100, height: 100)
                 .padding()
+                .animation(.easeInOut(duration: 0.3), value: viewModel.currentColor)
 
             Circle()
                 .foregroundColor(.orange)
                 .opacity(viewModel.currentColor == .orange ? 1 : 0.3)
                 .frame(width: 100, height: 100)
                 .padding()
+                .animation(.easeInOut(duration: 0.3), value: viewModel.currentColor)
 
             Circle()
                 .foregroundColor(.green)
                 .opacity(viewModel.currentColor == .green ? 1 : 0.3)
                 .frame(width: 100, height: 100)
                 .padding()
+                .animation(.easeInOut(duration: 0.3), value: viewModel.currentColor)
         }
         .bordered()
     }
