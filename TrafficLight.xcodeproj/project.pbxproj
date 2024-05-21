@@ -97,6 +97,7 @@
 				438207DE2BFB9299003CFB6C /* Car */,
 				438207DF2BFB92B0003CFB6C /* Driving */,
 				438207DD2BFB9277003CFB6C /* TrafficLight */,
+				43D413562BFC9A0800BFDCB8 /* Domain */,
 				438207EA2BFBD662003CFB6C /* Common */,
 				438207A82BFB4BEE003CFB6C /* Assets.xcassets */,
 				438207AA2BFB4BEE003CFB6C /* Preview Content */,
@@ -135,8 +136,6 @@
 			children = (
 				438207D72BFB8997003CFB6C /* TrafficLightView.swift */,
 				438207D92BFB9173003CFB6C /* TrafficLightViewModel.swift */,
-				438207DB2BFB919A003CFB6C /* TrafficLightActor.swift */,
-				438207EB2BFBDDFF003CFB6C /* LightColor.swift */,
 			);
 			path = TrafficLight;
 			sourceTree = "<group>";
@@ -165,6 +164,15 @@
 				438207D22BFB5300003CFB6C /* ViewModifiers */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		43D413562BFC9A0800BFDCB8 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				438207DB2BFB919A003CFB6C /* TrafficLightActor.swift */,
+				438207EB2BFBDDFF003CFB6C /* LightColor.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
